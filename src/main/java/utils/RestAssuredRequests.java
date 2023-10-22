@@ -35,8 +35,8 @@ public class RestAssuredRequests {
 
     public static Response postRequest(JSONObject clienteObjeto) {
         //fake api para realizar teste
-        RestAssured.baseURI = "https://jsonplaceholder.typicode.com";
-        //RestAssured.baseURI = "https://teste/1.0/elegibilidade_cliente";
+        //RestAssured.baseURI = "https://jsonplaceholder.typicode.com";
+        RestAssured.baseURI = "https://teste/1.0/elegibilidade_cliente";
 
         Response response = given()
                 .header("Content-type", "application/json")

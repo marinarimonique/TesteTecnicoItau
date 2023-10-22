@@ -1,0 +1,12 @@
+{
+  "elegibilidade_cliente_entrada":{
+    "contratos":[
+      {
+        "indicador_conta_ativa": "string",
+        "indicador_cliente_correntista": "string",
+        "codigo_tipo_produto_oferta": "string",
+        "codigo_produto_origem": 0
+      }
+    ]
+  }
+}

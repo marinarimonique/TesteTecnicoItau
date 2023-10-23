@@ -8,12 +8,13 @@ Funcionalidade: Validador de senha
 
     Quais questionamentos podem ser feitos para entender o pedido realizado?
 
-        - Validador de senha de qual funcionalidade? (login, transacional)
-        - Regras: Senha númerica ou alfanumérica? (Se for alfanumérica, será obrigatorio letra maiuscula
-        e caractere especial?)
-        - Quais sao os tipos de senhas inválidas? (ex.: se for numerica, nao aceitar numeros iguais/sequenciais
-        se for alfanumerica: nao aceitar caractere de pontuacao)
-        - Limite de caracteres?
+        - Em qual jornada essa senha será solicitada?
+        - Quais regras técnicas validarão a senha?
+            -> Número mínimo de dígitos?
+            -> Necessidade de caracteres especiais?
+            -> Apenas números/apenas letras/necessidade de número e letra;
+        - Quais regras de segurança precisam ser validadas?
+            -> Permissão de número sequencial? Data de aniversário?
         - Já existem protótipos das telas?
 
     Visando uma melhoria no processo, para que num futuro sua modelagem seja mais eficaz,
